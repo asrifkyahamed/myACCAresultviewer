@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>myACCA | Premium Result Viewer</title>
+  <style>
+    :root {
+      --acca-red: #d22630;
+      --acca-dark: #1b1b1b;
+      --acca-gray: #f4f4f4;
+      --text-light: #ffffff;
+    }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: var(--acca-gray);
+    }
+    .header {
+      background: var(--acca-red);
+      padding: 20px;
+      text-align: center;
+      color: var(--text-light);
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+    .viewer-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+    iframe {
+      width: 100%;
+      height: 90vh;
+      border: none;
+      border-radius: 12px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--acca-dark);
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">myACCA • Premium Result Viewer</div>
+  <div class="viewer-container">
+    <h2>Exam Result • Business and Technology (BT)</h2>
+    <iframe src="ASR AHAMED myACCA.pdf"></iframe>
+  </div>
+  <div class="footer">© 2025 myACCA Styled Viewer • Designed for Rifky</div>
+</body>
+</html>
